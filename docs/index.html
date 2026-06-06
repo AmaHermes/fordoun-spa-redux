@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#3a4a3a" />
+<meta name="robots" content="noindex,nofollow" />
+<title>Fordoun Spa — Book Your Treatment</title>
+<meta name="description" content="Book your spa treatment at Fordoun Hotel & Spa, KZN Midlands. Browse the full treatment menu and send a booking request in under a minute." />
+<meta property="og:title" content="Fordoun Spa — Book Your Treatment" />
+<meta property="og:description" content="Browse the full Fordoun Spa treatment menu and request your booking in under a minute." />
+<meta property="og:type" content="website" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="brand">
+      <span class="brand-mark">🌿</span>
+      <span class="brand-name">FORDOUN SPA</span>
+    </div>
+    <h1>Reimagine Relaxation</h1>
+    <p class="hero-sub">Award-winning spa in the heart of the KZN Midlands. Browse our full menu and request your booking — we'll confirm via WhatsApp.</p>
+    <a href="#categories" class="cta">Browse Treatments →</a>
+  </div>
+</header>
+
+<main>
+
+  <section id="categories" class="section">
+    <div class="container">
+      <p class="eyebrow">Step 1 of 3</p>
+      <h2>Choose your treatments</h2>
+      <p class="lead">Tap any treatment to add it to your booking. You can choose more than one.</p>
+
+      <nav class="cat-tabs" id="catTabs" aria-label="Treatment categories"></nav>
+      <div id="catContent" class="cat-content"></div>
+    </div>
+  </section>
+
+  <section id="when" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow">Step 2 of 3</p>
+      <h2>When would you like to come in?</h2>
+      <p class="lead">We'll match you with the next available slot. The spa team will confirm your time on WhatsApp.</p>
+
+      <div class="when-grid">
+        <label class="field">
+          <span class="field-label">Preferred date</span>
+          <input type="date" id="prefDate" />
+        </label>
+        <label class="field">
+          <span class="field-label">Preferred time of day</span>
+          <select id="prefTime">
+            <option value="Morning (08:00 – 11:00)">Morning (08:00 – 11:00)</option>
+            <option value="Midday (11:00 – 14:00)" selected>Midday (11:00 – 14:00)</option>
+            <option value="Afternoon (14:00 – 17:00)">Afternoon (14:00 – 17:00)</option>
+            <option value="Flexible — whatever's available">Flexible — whatever's available</option>
+          </select>
+        </label>
+        <label class="field">
+          <span class="field-label">How many people?</span>
+          <select id="prefGuests">
+            <option value="1" selected>1 person</option>
+            <option value="2">2 people (couples treatment if available)</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option>
+            <option value="5+">5 or more (group booking)</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </section>
+
+  <section id="you" class="section">
+    <div class="container">
+      <p class="eyebrow">Step 3 of 3</p>
+      <h2>Your details</h2>
+      <p class="lead">So the spa team can confirm your booking.</p>
+
+      <div class="when-grid">
+        <label class="field">
+          <span class="field-label">Your name</span>
+          <input type="text" id="yourName" placeholder="First and surname" autocomplete="name" />
+        </label>
+        <label class="field">
+          <span class="field-label">Your WhatsApp / cell number</span>
+          <input type="tel" id="yourPhone" placeholder="e.g. 082 123 4567" autocomplete="tel" />
+        </label>
+        <label class="field field-wide">
+          <span class="field-label">Anything we should know?</span>
+          <textarea id="yourNotes" rows="3" placeholder="Allergies, pregnancy, special requests, staying at the hotel, etc."></textarea>
+        </label>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div id="summary" class="summary">
+        <h3>Your booking request</h3>
+        <div id="summaryContent" class="summary-content">
+          <p class="empty">No treatments selected yet — scroll up to choose.</p>
+        </div>
+      </div>
+
+      <button id="sendBtn" class="send-btn" type="button" disabled>
+        <span class="wa-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="22" height="22" fill="currentColor"><path d="M16 .5C7.4.5.5 7.4.5 16c0 2.8.8 5.5 2.2 7.9L.5 31.5l7.8-2.1c2.3 1.3 4.9 2 7.7 2 8.6 0 15.5-6.9 15.5-15.5S24.6.5 16 .5Zm0 28.3c-2.5 0-4.9-.7-7-2l-.5-.3-4.6 1.2 1.2-4.5-.3-.5C3.5 20.7 2.7 18.4 2.7 16 2.7 8.6 8.7 2.7 16 2.7S29.3 8.6 29.3 16 23.4 28.8 16 28.8Zm7.5-9.7c-.4-.2-2.4-1.2-2.8-1.3-.4-.1-.6-.2-.9.2s-1 1.3-1.2 1.5c-.2.2-.5.3-.8.1-.4-.2-1.7-.6-3.2-2-1.2-1.1-2-2.4-2.2-2.8-.2-.4 0-.6.2-.8.2-.2.4-.5.6-.7.2-.2.3-.4.4-.6.1-.2.1-.5 0-.7-.1-.2-.9-2.2-1.3-3-.3-.8-.7-.7-.9-.7h-.8c-.3 0-.7.1-1.1.5-.4.4-1.4 1.4-1.4 3.4 0 2 1.5 3.9 1.6 4.2.2.3 2.9 4.5 7.1 6.2 1 .4 1.8.7 2.4.9 1 .3 1.9.3 2.6.2.8-.1 2.4-1 2.7-1.9.3-.9.3-1.7.2-1.9 0-.2-.3-.3-.7-.5Z"/></svg>
+        </span>
+        <span class="send-btn-label">Choose a treatment to continue</span>
+      </button>
+
+      <p class="send-note">This opens WhatsApp with your booking request ready to send to the Fordoun Spa team. They'll confirm your slot and answer any questions.</p>
+
+      <details class="alt-contact">
+        <summary>Prefer email or a phone call?</summary>
+        <div class="alt-contact-body">
+          <p>Either way works:</p>
+          <ul>
+            <li>📧 <a id="emailLink" href="#">spa@fordoun.com</a></li>
+            <li>📞 <a href="tel:+27332666217">+27 33 266 6217</a></li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section class="section section-info">
+    <div class="container info-grid">
+      <div>
+        <h3>Opening hours</h3>
+        <p><strong>Sun – Thu:</strong> 08:00 — 18:00<br>
+        <strong>Fri – Sat:</strong> 08:00 — 19:00</p>
+        <p class="muted">Open public holidays. Closed Christmas Day.</p>
+      </div>
+      <div>
+        <h3>Good to know</h3>
+        <ul class="policy-list" id="policyList"></ul>
+      </div>
+      <div>
+        <h3>Find us</h3>
+        <p>Fordoun Hotel &amp; Spa<br>
+        Nottingham Road<br>
+        KZN Midlands<br>
+        South Africa</p>
+        <p><a href="https://fordoun.com" target="_blank" rel="noopener">fordoun.com →</a></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>© Fordoun Hotel &amp; Spa — Booking concept by <a href="https://woolies-redux.app" target="_blank" rel="noopener">Razz</a></p>
+  </div>
+</footer>
+
+<button id="floatCart" class="float-cart" type="button" hidden>
+  <span class="float-cart-count">0</span>
+  <span class="float-cart-label">Review booking</span>
+</button>
+
+<script src="app.js"></script>
+</body>
+</html>

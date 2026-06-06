@@ -1,0 +1,7 @@
+# Build artefacts
+node_modules/
+.DS_Store
+*.log
+
+# Source PDFs (kept locally for reference, not shipped)
+*.pdf

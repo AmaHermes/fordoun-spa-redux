@@ -1,0 +1,572 @@
+{
+  "categories": [
+    {
+      "id": "day-packages",
+      "name": "Day Packages",
+      "blurb": "A full spa journey — includes pools, sauna, steam room, and light lunch.",
+      "treatments": [
+        {
+          "id": "wellness-day",
+          "name": "Wellness Day Package",
+          "duration": 90,
+          "price": 1720,
+          "desc": "Aromatherapy massage (60min) • Floatation (30min) • Sauna + plunge • Spa lunch"
+        },
+        {
+          "id": "half-day",
+          "name": "Half Day Package",
+          "duration": 150,
+          "price": 2530,
+          "desc": "Floatation (30) • Express manicure (30) • Massage (60) • Hydration facial (30) • Lunch"
+        },
+        {
+          "id": "full-day",
+          "name": "Full Day Package",
+          "duration": 240,
+          "price": 3220,
+          "desc": "Floatation (30) • Spa pedicure (60) • Massage (90) • Algae facial (60) • Lunch"
+        },
+        {
+          "id": "pregnancy-day",
+          "name": "Pregnancy Day Package",
+          "duration": 150,
+          "price": 2660,
+          "desc": "Hydration facial (30) • Massage (60) • Express pedi (30) • Express mani (30) • Lunch"
+        }
+      ]
+    },
+    {
+      "id": "signature",
+      "name": "Signature Experiences",
+      "blurb": "Fordoun originals — Zulu clay, African botanicals, salt floatation.",
+      "treatments": [
+        {
+          "id": "rasul-african",
+          "name": "Ndlovu Rasul — African Clay & Artemesia",
+          "duration": 45,
+          "price": 320,
+          "desc": "Self-application of locally harvested Mcako clay with artemesia oil. R520 for 2, R650 for 4."
+        },
+        {
+          "id": "rasul-thalgo",
+          "name": "Thalgo Rasul — Mineral Marine",
+          "duration": 45,
+          "price": 320,
+          "desc": "Oceanic clay, deeply detoxing. R520 for 2, R650 for 4."
+        },
+        {
+          "id": "royal-zulu-bath",
+          "name": "Ndlovu Royal Zulu Bath",
+          "duration": 30,
+          "price": 370,
+          "desc": "Aromatic salt soak with nourishing oils and Mcako clay. R500 for couple."
+        },
+        {
+          "id": "thalgo-milk-bath",
+          "name": "Thalgo Precious Milk Bath",
+          "duration": 30,
+          "price": 350,
+          "desc": "Therapeutic and aromatic hydra-jet bath. R450 for couple."
+        },
+        {
+          "id": "floatation",
+          "name": "Floatation Pool",
+          "duration": 30,
+          "price": 220,
+          "desc": "Saline soak for detox, muscle ache relief and deep relaxation."
+        },
+        {
+          "id": "reiki",
+          "name": "Reiki",
+          "duration": 60,
+          "price": 830,
+          "desc": "Non-intrusive energy treatment for natural healing."
+        },
+        {
+          "id": "bio-energy-60",
+          "name": "Bio Energy — 60 min",
+          "duration": 60,
+          "price": 830,
+          "desc": "Gentle treatment balancing the body's energy system."
+        },
+        {
+          "id": "bio-energy-90",
+          "name": "Bio Energy — 90 min",
+          "duration": 90,
+          "price": 1060,
+          "desc": "Extended energy balancing for deep harmony."
+        }
+      ]
+    },
+    {
+      "id": "massages",
+      "name": "Massages",
+      "blurb": "Natural oils, pressure-point and energetic techniques.",
+      "treatments": [
+        {
+          "id": "ndlovu-60",
+          "name": "Ndlovu Signature Full Body — 60 min",
+          "duration": 60,
+          "price": 980,
+          "desc": "The Fordoun signature."
+        },
+        {
+          "id": "ndlovu-90",
+          "name": "Ndlovu Signature Full Body — 90 min",
+          "duration": 90,
+          "price": 1200,
+          "desc": "The Fordoun signature, extended."
+        },
+        {
+          "id": "nduku-nduku",
+          "name": "Nduku Nduku — Zulu Wood Sticks",
+          "duration": 45,
+          "price": 650,
+          "desc": "Traditional Zulu wood-stick massage."
+        },
+        {
+          "id": "back-body",
+          "name": "Back of Body",
+          "duration": 45,
+          "price": 600,
+          "desc": "Focus on back, shoulders, glutes, hamstrings."
+        },
+        {
+          "id": "bns-30",
+          "name": "Back, Neck & Shoulder — 30 min",
+          "duration": 30,
+          "price": 490,
+          "desc": "Targeted tension relief."
+        },
+        {
+          "id": "bns-45",
+          "name": "Back, Neck & Shoulder — 45 min",
+          "duration": 45,
+          "price": 600,
+          "desc": "Targeted tension relief, extended."
+        },
+        {
+          "id": "aroma-60",
+          "name": "Aromatherapy — 60 min",
+          "duration": 60,
+          "price": 1100,
+          "desc": "Essential oil blend tailored to you."
+        },
+        {
+          "id": "aroma-90",
+          "name": "Aromatherapy — 90 min",
+          "duration": 90,
+          "price": 1350,
+          "desc": "Essential oil blend, extended."
+        },
+        {
+          "id": "deep-60",
+          "name": "Deep Tissue — 60 min",
+          "duration": 60,
+          "price": 1100,
+          "desc": "Firm pressure for chronic tension."
+        },
+        {
+          "id": "deep-90",
+          "name": "Deep Tissue — 90 min",
+          "duration": 90,
+          "price": 1350,
+          "desc": "Firm pressure, extended."
+        },
+        {
+          "id": "hot-stone-60",
+          "name": "Hot Stone — 60 min",
+          "duration": 60,
+          "price": 1000,
+          "desc": "Heated basalt stones along meridians."
+        },
+        {
+          "id": "hot-stone-90",
+          "name": "Hot Stone — 90 min",
+          "duration": 90,
+          "price": 1250,
+          "desc": "Heated basalt stones, extended."
+        },
+        {
+          "id": "swedish-60",
+          "name": "Swedish — 60 min",
+          "duration": 60,
+          "price": 1000,
+          "desc": "Classic relaxation massage."
+        },
+        {
+          "id": "swedish-90",
+          "name": "Swedish — 90 min",
+          "duration": 90,
+          "price": 1200,
+          "desc": "Classic relaxation, extended."
+        },
+        {
+          "id": "head-massage",
+          "name": "Phumuza iKhanda Head Massage",
+          "duration": 30,
+          "price": 400,
+          "desc": "Pressure-point scalp work."
+        },
+        {
+          "id": "foot-massage",
+          "name": "Foot Massage",
+          "duration": 30,
+          "price": 400,
+          "desc": "Soothing foot pressure work."
+        },
+        {
+          "id": "reflexology",
+          "name": "Reflexology",
+          "duration": 60,
+          "price": 850,
+          "desc": "Pressure mapping on hands and feet."
+        }
+      ]
+    },
+    {
+      "id": "body-facial-african",
+      "name": "African Body Treatments & Facials",
+      "blurb": "Pure African botanicals — Mcako, Inkomfe, Marula, Rooibos, Baobab.",
+      "treatments": [
+        {
+          "id": "himalayan-scrub",
+          "name": "Ndlovu Himalayan Salt, Coconut & Wild Dagga",
+          "duration": 30,
+          "price": 550,
+          "desc": "Body scrub polish."
+        },
+        {
+          "id": "inkomfe-wrap",
+          "name": "Ndlovu Inkomfe Shea & Wild Dagga",
+          "duration": 60,
+          "price": 1150,
+          "desc": "Body wrap + salt scrub."
+        },
+        {
+          "id": "baobab-wrap",
+          "name": "Terres d'Afrique Organic Body Wrap",
+          "duration": 90,
+          "price": 1250,
+          "desc": "Baobab wrap + myrrh scrub."
+        },
+        {
+          "id": "afrigold",
+          "name": "Terres d'Afrique Afrigold",
+          "duration": 90,
+          "price": 1400,
+          "desc": "Shea butter massage + facial."
+        },
+        {
+          "id": "afrique-facial",
+          "name": "Terres d'Afrique Organic Facial",
+          "duration": 60,
+          "price": 1000,
+          "desc": "Marula, rooibos and aloe."
+        }
+      ]
+    },
+    {
+      "id": "thalgo",
+      "name": "Thalgo Marine Treatments",
+      "blurb": "Marine-based, mineral-rich treatments for naturally glowing skin.",
+      "treatments": [
+        {
+          "id": "hydration-facial",
+          "name": "Hydration Facial",
+          "duration": 30,
+          "price": 730,
+          "desc": "Quick hydration boost."
+        },
+        {
+          "id": "algae-facial",
+          "name": "Algae Facial",
+          "duration": 60,
+          "price": 1000,
+          "desc": "Marine algae nourishment."
+        },
+        {
+          "id": "marine-wrap",
+          "name": "Mineral Marine Body Wrap",
+          "duration": 45,
+          "price": 650,
+          "desc": "Mineral-rich body wrap."
+        },
+        {
+          "id": "arm-firm",
+          "name": "Arm Lift & Firm Treatment",
+          "duration": 30,
+          "price": 570,
+          "desc": "Targeted toning."
+        },
+        {
+          "id": "leg-treatment",
+          "name": "Feather Light Leg Treatment",
+          "duration": 30,
+          "price": 620,
+          "desc": "For tired, heavy legs."
+        }
+      ]
+    },
+    {
+      "id": "dermalogica",
+      "name": "Dermalogica Facials & Peels",
+      "blurb": "High-performance treatments, deep exfoliation, targeted peels.",
+      "treatments": [
+        {
+          "id": "pro-facial-30",
+          "name": "Pro Facial — 30 min",
+          "duration": 30,
+          "price": 800,
+          "desc": "Targeted skin treatment."
+        },
+        {
+          "id": "pro-facial-60",
+          "name": "Pro Facial — 60 min",
+          "duration": 60,
+          "price": 1100,
+          "desc": "Targeted skin treatment, extended."
+        },
+        {
+          "id": "pro-peel-30",
+          "name": "Pro Power Peel — 30 min",
+          "duration": 30,
+          "price": 800,
+          "desc": "Targeted chemical peel."
+        },
+        {
+          "id": "pro-peel-60",
+          "name": "Pro Power Peel — 60 min",
+          "duration": 60,
+          "price": 1000,
+          "desc": "Targeted peel, extended."
+        },
+        {
+          "id": "dermaplane-30",
+          "name": "Dermaplaning — 30 min",
+          "duration": 30,
+          "price": 890,
+          "desc": "Manual exfoliation."
+        },
+        {
+          "id": "dermaplane-60",
+          "name": "Dermaplaning — 60 min",
+          "duration": 60,
+          "price": 1200,
+          "desc": "Manual exfoliation, extended."
+        }
+      ]
+    },
+    {
+      "id": "hands-feet",
+      "name": "Hands & Feet",
+      "blurb": "Manicures, pedicures, gel and add-ons.",
+      "treatments": [
+        {
+          "id": "spa-mani",
+          "name": "Spa Manicure",
+          "duration": 45,
+          "price": 450,
+          "desc": "Full manicure with massage."
+        },
+        {
+          "id": "exp-mani",
+          "name": "Express Manicure",
+          "duration": 30,
+          "price": 300,
+          "desc": "Quick polish."
+        },
+        {
+          "id": "gel-spa-mani",
+          "name": "Gel Spa Manicure",
+          "duration": 60,
+          "price": 550,
+          "desc": "Long-lasting gel."
+        },
+        {
+          "id": "gel-exp-mani",
+          "name": "Gel Express Manicure",
+          "duration": 30,
+          "price": 350,
+          "desc": "Quick gel."
+        },
+        {
+          "id": "spa-pedi",
+          "name": "Spa Pedicure",
+          "duration": 60,
+          "price": 500,
+          "desc": "Full pedicure with massage."
+        },
+        {
+          "id": "exp-pedi",
+          "name": "Express Pedicure",
+          "duration": 30,
+          "price": 350,
+          "desc": "Quick polish."
+        },
+        {
+          "id": "elim-pedi",
+          "name": "Elim Pedicure",
+          "duration": 60,
+          "price": 600,
+          "desc": "Specialised foot-peel pedicure."
+        },
+        {
+          "id": "gel-spa-pedi",
+          "name": "Gel Spa Pedicure",
+          "duration": 60,
+          "price": 600,
+          "desc": "Long-lasting gel pedicure."
+        },
+        {
+          "id": "gel-exp-pedi",
+          "name": "Gel Express Pedicure",
+          "duration": 30,
+          "price": 360,
+          "desc": "Quick gel pedicure."
+        }
+      ]
+    },
+    {
+      "id": "pregnancy",
+      "name": "Pregnancy Treatments",
+      "blurb": "Specialised, gentle treatments for moms-to-be.",
+      "treatments": [
+        {
+          "id": "preg-full-body",
+          "name": "Full Body Massage (Pregnancy)",
+          "duration": 60,
+          "price": 1000,
+          "desc": "Pregnancy-safe positioning."
+        },
+        {
+          "id": "preg-scrub-massage",
+          "name": "Body Scrub & Massage (Pregnancy)",
+          "duration": 90,
+          "price": 1320,
+          "desc": "Gentle scrub + massage."
+        },
+        {
+          "id": "preg-leg",
+          "name": "Leg Massage (Pregnancy)",
+          "duration": 30,
+          "price": 450,
+          "desc": "Targeted leg relief."
+        },
+        {
+          "id": "preg-bns",
+          "name": "Back, Neck & Shoulder (Pregnancy)",
+          "duration": 30,
+          "price": 550,
+          "desc": "Targeted upper-body relief."
+        }
+      ]
+    },
+    {
+      "id": "waxing",
+      "name": "Waxing, Threading & Tinting",
+      "blurb": "Hair removal and brow/lash work.",
+      "treatments": [
+        {
+          "id": "leg-full",
+          "name": "Full Leg Wax",
+          "duration": 45,
+          "price": 370,
+          "desc": ""
+        },
+        {
+          "id": "leg-34",
+          "name": "3/4 Leg Wax",
+          "duration": 30,
+          "price": 310,
+          "desc": ""
+        },
+        {
+          "id": "leg-half",
+          "name": "1/2 Leg Wax",
+          "duration": 30,
+          "price": 260,
+          "desc": ""
+        },
+        {
+          "id": "bikini",
+          "name": "Bikini Wax",
+          "duration": 30,
+          "price": 210,
+          "desc": ""
+        },
+        {
+          "id": "brazilian",
+          "name": "Brazilian Wax",
+          "duration": 30,
+          "price": 410,
+          "desc": ""
+        },
+        {
+          "id": "hollywood",
+          "name": "Hollywood Wax",
+          "duration": 30,
+          "price": 450,
+          "desc": ""
+        },
+        {
+          "id": "lash-brow-tint",
+          "name": "Lash + Brow Tint",
+          "duration": 30,
+          "price": 210,
+          "desc": ""
+        },
+        {
+          "id": "lash-tint",
+          "name": "Lash OR Brow Tint",
+          "duration": 15,
+          "price": 120,
+          "desc": ""
+        },
+        {
+          "id": "lip-brow-thread",
+          "name": "Lip OR Brow Threading",
+          "duration": 15,
+          "price": 150,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": "wellness",
+      "name": "Wellness & Energy",
+      "blurb": "Ozone therapy and other targeted wellness.",
+      "treatments": [
+        {
+          "id": "ozone",
+          "name": "Ozone Therapy",
+          "duration": 30,
+          "price": 350,
+          "desc": "Ozone (O₃) treatment to support healing and reduce harmful microorganisms."
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "phone": "+27 33 266 6217",
+    "whatsapp": "+27 78 165 5087",
+    "whatsapp_raw": "27781655087",
+    "email": "spa@fordoun.com",
+    "website": "https://fordoun.com",
+    "address": "Fordoun Hotel & Spa, Nottingham Road, KZN Midlands"
+  },
+  "hours": {
+    "sun_thu": "08:00 — 18:00",
+    "fri_sat": "08:00 — 19:00",
+    "notes": "Open public holidays. Closed Christmas Day."
+  },
+  "policies": [
+    "Booking in advance is essential.",
+    "Kindly arrive 15 minutes before your appointment.",
+    "Please bring a swimming costume.",
+    "50% deposit required for group bookings.",
+    "24 hours' notice required for cancellations.",
+    "Local discount available weekdays only.",
+    "Day packages include use of the spa pools, sauna and steam room."
+  ]
+}
