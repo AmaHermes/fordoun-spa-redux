@@ -295,7 +295,29 @@ textarea {
   color: var(--ink);
   background: var(--cream);
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  display: block;
   transition: border-color .15s ease, box-shadow .15s ease;
+}
+/* iOS Safari fixes for <input type="date"> — it has an intrinsic min-width
+   from its placeholder content and center-aligns the value. Force LTR
+   left-aligned text and strip the native appearance so it behaves like
+   the sibling inputs. */
+input[type="date"] {
+  -webkit-appearance: none;
+  appearance: none;
+  text-align: left;
+  font-family: var(--sans);
+  line-height: 1.4;
+  height: auto;
+}
+input[type="date"]::-webkit-date-and-time-value {
+  text-align: left;
+  min-height: 1.4em;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-left: auto;
 }
 input:focus, select:focus, textarea:focus {
   outline: none;
