@@ -39,7 +39,9 @@
       <h2>Choose your treatments</h2>
       <p class="lead">Tap any treatment to add it to your booking. You can choose more than one.</p>
 
-      <nav class="cat-tabs" id="catTabs" aria-label="Treatment categories"></nav>
+      <div class="cat-tabs-wrap">
+        <nav class="cat-tabs" id="catTabs" aria-label="Treatment categories"></nav>
+      </div>
       <div id="catContent" class="cat-content"></div>
     </div>
   </section>
@@ -103,11 +105,9 @@
 
   <section class="section section-alt">
     <div class="container">
-      <div id="summary" class="summary">
+      <div id="summary" class="summary" hidden>
         <h3>Your booking request</h3>
-        <div id="summaryContent" class="summary-content">
-          <p class="empty">No treatments selected yet — scroll up to choose.</p>
-        </div>
+        <div id="summaryContent" class="summary-content"></div>
       </div>
 
       <button id="sendBtn" class="send-btn" type="button" disabled>
@@ -130,6 +130,12 @@
         </div>
       </details>
     </div>
+  </section>
+
+  <section class="photo-band" aria-hidden="true">
+    <figure><img src="scene-1.jpg" alt="" loading="lazy" /></figure>
+    <figure><img src="scene-2.jpg" alt="" loading="lazy" /></figure>
+    <figure><img src="scene-3.jpg" alt="" loading="lazy" /></figure>
   </section>
 
   <section class="section section-info">

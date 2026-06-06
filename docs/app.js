@@ -113,12 +113,14 @@ function renderSummary() {
   const cart = $('#floatCart');
 
   if (STATE.selected.size === 0) {
-    box.innerHTML = '<p class="empty">No treatments selected yet — scroll up to choose.</p>';
+    box.innerHTML = '';
+    $('#summary').hidden = true;
     sendBtn.disabled = true;
     sendLbl.textContent = 'Choose a treatment to continue';
     cart.hidden = true;
     return;
   }
+  $('#summary').hidden = false;
 
   let total = 0;
   let mins = 0;
