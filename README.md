@@ -4,7 +4,7 @@ A booking page concept for [Fordoun Hotel & Spa](https://fordoun.com), KZN
 Midlands. Turns a 6-message WhatsApp back-and-forth into one perfect
 WhatsApp request — without changing how the spa actually runs.
 
-**Live demo:** https://razzanother.github.io/fordoun-spa-redux/
+**Live demo:** https://amahermes.github.io/fordoun-spa-redux/
 
 ## What it does
 
