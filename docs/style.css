@@ -135,11 +135,11 @@ p { margin: 0 0 1rem; }
   top: 0;
   right: 0;
   bottom: 0;
-  width: 48px;
-  background: linear-gradient(90deg, transparent, var(--cream));
+  width: 64px;
+  background: linear-gradient(90deg, transparent 0%, var(--cream) 70%);
   pointer-events: none;
 }
-.section-alt .cat-tabs-wrap::after { background: linear-gradient(90deg, transparent, var(--sand)); }
+.section-alt .cat-tabs-wrap::after { background: linear-gradient(90deg, transparent 0%, var(--sand) 70%); }
 .cat-tabs {
   display: flex;
   gap: .5rem;
